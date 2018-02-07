@@ -27,6 +27,9 @@ public class Main {
         int theTimes = 0;
         while(contents.contains("the") ){
             theTimes += 1;
+            contents = contents.substring(contents.indexOf("the") + 3);
+
+
 
 
         }
